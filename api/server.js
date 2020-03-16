@@ -5,6 +5,6 @@ const server = express();
 
 server.use(express.json());
 
-server.use("/accounts", accountsRouter)
+server.use("/api/accounts", accountsRouter)
 
 module.exports = server;
